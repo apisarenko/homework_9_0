@@ -60,7 +60,6 @@ def main():
 
     elif command == '3':
         name_artist = input('Введите имя Исполнителя: ')
-        name_artist = ("'" + name_artist + "'")
         find_by_name(name_artist, database)
 
     elif command == '4':
